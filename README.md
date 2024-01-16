@@ -1,6 +1,6 @@
 The Bluetooth management interface of JK-BMS poses significant security risks. It's hard to imagine that a system overseeing tens of thousands of ampere-hours of energy can freely modify various battery data through an insecure wireless connection. Besides the potential damage to the battery cells, there is even a risk of battery overcharging leading to combustion.
 
-To address this, I initially added a physical power switch to the Bluetooth module. After configuring the parameters through Bluetooth, I would then turn off its wireless functionality using this switch.
+I have submitted a request to the manufacturer to disable the Bluetooth functionality. Until the manufacturer provides a solution, I have added a physical power switch to the Bluetooth module. This allows me to deactivate its wireless capabilities after configuring parameters through Bluetooth.
 
 ![power-switch](images/power-switch-Bluetooth-module.jpg "power-switch")
 
