@@ -2,7 +2,7 @@ The Bluetooth management interface of JK-BMS poses significant security risks. I
 
 To address this, I initially added a physical power switch to the Bluetooth module. After configuring the parameters through Bluetooth, I would then turn off its wireless functionality using this switch.
 
-
+![power-switch](images/power-switch-Bluetooth-module.jpg "power-switch")
 
 Next, I will modify the Bluetooth connection to enable control of Bluetooth and BMS through software. Special thanks to @syssi for the assistance.
 
