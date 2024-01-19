@@ -2,7 +2,7 @@ The Bluetooth management interface of JK-BMS poses significant security risks. I
 
 I have submitted a request to the manufacturer to disable the Bluetooth functionality. Until the manufacturer provides a solution, I have added a physical power switch to the Bluetooth module. This allows me to deactivate its wireless capabilities after configuring parameters through Bluetooth. Now, I have integrated an ESP32 between Bluetooth and BMS, enabling me to control Bluetooth functionality through Wi-Fi or Bluetooth in home-assistant. In the future, I plan to eliminate the Bluetooth feature of JK-BMS and use ESP32's Wi-Fi or Bluetooth for BMS management.
 
-![power-switch](images/power-switch-Bluetooth-module.jpg "power-switch")  ![BLE_EM ](images/JK_BMS_BLE_EN.png)
+![power-switch](images/power-switch-Bluetooth-module.jpg "power-switch")  <img src=https://raw.githubusercontent.com/23900/jk-bms-bleuart/main/images/JK_BMS_BLE_EN.png width=40% />
 
 Next, I will modify the Bluetooth connection to enable control of Bluetooth and BMS through software. Special thanks to @syssi for the assistance.
 
